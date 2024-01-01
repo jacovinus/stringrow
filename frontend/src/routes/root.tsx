@@ -31,7 +31,7 @@ export default function Root() {
         </aside>
         <div className="flex flex-col flex-1 overflow-hidden">
           <header className="flex items-center justify-between p-6 border-green-800 border-b-2">
-            <h2 className="text-xl text-green-500 font-bold">StringRow</h2>
+            <h2 className="text-xl text-green-500 font-bold"><Link to="/notes">StringRow</Link></h2>
             <div className="relative">
               <span className="absolute inset-y-0 left-0 pl-3 flex items-center">
                 <SearchIcon className="w-4 h-4 text-gray-400" />
